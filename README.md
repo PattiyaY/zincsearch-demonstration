@@ -41,7 +41,15 @@ Creates a `products` index with the following field mappings:
 - `in_stock`: boolean field
 - `description`: text field
 
-### 3. Generate and Insert Sample Data
+### 3. Get Index Information
+
+```bash
+bash GET-index_name.sh
+```
+
+Check if the `products` index was created successfully and view its details.
+
+### 4. Generate and Insert Sample Data
 
 ```bash
 python3 generate-product.py
@@ -55,39 +63,37 @@ Generates and inserts 2,000 sample product records with:
 - Prices: $300-$3,000
 - In-stock status: randomly true/false
 
-### 4. Search Products
+### 5. Search Products
 
 ```bash
-bash 3-searching.sh
+bash 3-search.sh
 ```
 
 Demonstrates a basic match query searching for "uniqlo" in the product name field. Returns up to 5 results.
 
-### 5. Search with Filters
+### 6. Search with Query
 
 ```bash
-bash 4-search-with-filter.sh
+bash 4-search-with-query.sh
 ```
 
-Demonstrates searching for "jacket" while filtering results to only show items where the color is "Black".
+Demonstrates searching with query parameters and filters.
 
-### 6. Aggregation
+### 7. Fuzzy Search
 
 ```bash
-bash 5-aggregation.sh
+bash 5-fuzzy-search.sh
+```
+
+Demonstrates fuzzy search capability for approximate matching of search terms.
+
+### 8. Aggregation
+
+```bash
+bash 6-aggregation.sh
 ```
 
 Demonstrates data aggregation by counting the number of products for each brand. Useful for analytics and dashboards.
-
-### 7. Get Index Information
-
-```bash
-bash GET-index_name.sh
-```
-
-Check if the `products` index was created successfully and view its details.
-
-Retrieves information about the created index.
 
 ## API Details
 
