@@ -10,4 +10,4 @@ curl -X POST http://localhost:4080/api/products/_search \
   "from": 0,
   "max_results": 5,
   "_source": []
-}' > search_results_with_filter.json
+}' > search_results_with_query.json
