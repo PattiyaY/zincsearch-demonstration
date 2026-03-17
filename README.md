@@ -1,6 +1,6 @@
 # Zinc Search Demonstration
 
-This folder contains a step-by-step demonstration of [Zinc Search](https://zincsearch.com/), a lightweight search engine. The demonstration shows how to set up Zinc Search using Docker, create an index, insert sample product data, and perform various search operations.
+This folder contains a step-by-step demonstration of [Zinc Search](https://zincsearch-docs.zinc.dev/), a lightweight search engine. The demonstration shows how to set up Zinc Search using Docker, create an index, insert sample product data, and perform various search operations.
 
 ## Prerequisites
 
