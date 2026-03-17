@@ -1,0 +1,101 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": { "total": 1, "successful": 1, "skipped": 0, "failed": 0 },
+  "hits": {
+    "total": { "value": 134 },
+    "max_score": 7.714557306578055,
+    "hits": [
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyA6fImz",
+        "_score": 7.714557306578055,
+        "@timestamp": "2026-03-17T08:41:10.500123392Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.500123392Z",
+          "brand": "Zara",
+          "category": "Jacket",
+          "color": "Black",
+          "description": "Black Jacket from Zara for everyday wear",
+          "in_stock": true,
+          "name": "Zara Black Jacket",
+          "price": 1247,
+          "product_id": "P882"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyzS3LRp",
+        "_score": 7.714557306578055,
+        "@timestamp": "2026-03-17T08:41:10.45005184Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.45005184Z",
+          "brand": "Nike",
+          "category": "Jacket",
+          "color": "Black",
+          "description": "Black Jacket from Nike for everyday wear",
+          "in_stock": false,
+          "name": "Nike Black Jacket",
+          "price": 2786,
+          "product_id": "P327"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyA4gwsb",
+        "_score": 7.714557306578055,
+        "@timestamp": "2026-03-17T08:41:10.493148416Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.493148416Z",
+          "brand": "Adidas",
+          "category": "Jacket",
+          "color": "Black",
+          "description": "Black Jacket from Adidas for everyday wear",
+          "in_stock": false,
+          "name": "Adidas Black Jacket",
+          "price": 1223,
+          "product_id": "P775"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyzUTL9T",
+        "_score": 7.714557306578055,
+        "@timestamp": "2026-03-17T08:41:10.459981312Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.459981312Z",
+          "brand": "Zara",
+          "category": "Jacket",
+          "color": "Black",
+          "description": "Black Jacket from Zara for everyday wear",
+          "in_stock": true,
+          "name": "Zara Black Jacket",
+          "price": 1929,
+          "product_id": "P371"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyA6fImw",
+        "_score": 7.714557306578055,
+        "@timestamp": "2026-03-17T08:41:10.499959296Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.499959296Z",
+          "brand": "Adidas",
+          "category": "Jacket",
+          "color": "Black",
+          "description": "Black Jacket from Adidas for everyday wear",
+          "in_stock": true,
+          "name": "Adidas Black Jacket",
+          "price": 1186,
+          "product_id": "P879"
+        }
+      }
+    ]
+  }
+}

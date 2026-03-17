@@ -4,12 +4,12 @@ curl -X POST http://localhost:4080/api/products/_search \
 -H "Content-Type: application/json" \
 -d '{
   "search_type": "match_all",
-  "aggregations": {
+  "aggs": {
     "brand_count": {
-      "terms": {
-        "field": "brand"
-      }
+      "agg_type": "term",
+      "field": "brand"
     }
   },
-  "max_results": 0
-}'
+  "max_results": 0,
+  "_source": []
+}' > aggregation_results.json

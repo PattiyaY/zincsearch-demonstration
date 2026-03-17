@@ -1,0 +1,16 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": { "total": 1, "successful": 1, "skipped": 0, "failed": 0 },
+  "hits": { "total": { "value": 2000 }, "max_score": 1, "hits": [] },
+  "aggregations": {
+    "brand_count": {
+      "buckets": [
+        { "doc_count": 518, "key": "Uniqlo" },
+        { "doc_count": 510, "key": "Nike" },
+        { "doc_count": 489, "key": "Adidas" },
+        { "doc_count": 483, "key": "Zara" }
+      ]
+    }
+  }
+}

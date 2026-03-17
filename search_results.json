@@ -1,0 +1,101 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": { "total": 1, "successful": 1, "skipped": 0, "failed": 0 },
+  "hits": {
+    "total": { "value": 518 },
+    "max_score": 3.9521518693634534,
+    "hits": [
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyzLwZRS",
+        "_score": 3.9521518693634534,
+        "@timestamp": "2026-03-17T08:41:10.427158272Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.427158272Z",
+          "brand": "Uniqlo",
+          "category": "Jacket",
+          "color": "Blue",
+          "description": "Blue Jacket from Uniqlo for everyday wear",
+          "in_stock": false,
+          "name": "Uniqlo Blue Jacket",
+          "price": 1795,
+          "product_id": "P183"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyA2hkxF",
+        "_score": 3.9521518693634534,
+        "@timestamp": "2026-03-17T08:41:10.486166784Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.486166784Z",
+          "brand": "Uniqlo",
+          "category": "Pants",
+          "color": "Blue",
+          "description": "Blue Pants from Uniqlo for everyday wear",
+          "in_stock": false,
+          "name": "Uniqlo Blue Pants",
+          "price": 748,
+          "product_id": "P623"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyzWjKO6",
+        "_score": 3.9521518693634534,
+        "@timestamp": "2026-03-17T08:41:10.464578816Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.464578816Z",
+          "brand": "Uniqlo",
+          "category": "Hoodie",
+          "color": "Gray",
+          "description": "Gray Hoodie from Uniqlo for everyday wear",
+          "in_stock": false,
+          "name": "Uniqlo Gray Hoodie",
+          "price": 2860,
+          "product_id": "P407"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyA4gws1",
+        "_score": 3.9521518693634534,
+        "@timestamp": "2026-03-17T08:41:10.492717824Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.492717824Z",
+          "brand": "Uniqlo",
+          "category": "Pants",
+          "color": "White",
+          "description": "White Pants from Uniqlo for everyday wear",
+          "in_stock": true,
+          "name": "Uniqlo White Pants",
+          "price": 1618,
+          "product_id": "P765"
+        }
+      },
+      {
+        "_index": "products",
+        "_type": "_doc",
+        "_id": "2qeWyA5Gw6m",
+        "_score": 3.9521518693634534,
+        "@timestamp": "2026-03-17T08:41:10.498035968Z",
+        "_source": {
+          "@timestamp": "2026-03-17T08:41:10.498035968Z",
+          "brand": "Uniqlo",
+          "category": "Hoodie",
+          "color": "Blue",
+          "description": "Blue Hoodie from Uniqlo for everyday wear",
+          "in_stock": true,
+          "name": "Uniqlo Blue Hoodie",
+          "price": 2018,
+          "product_id": "P840"
+        }
+      }
+    ]
+  }
+}
